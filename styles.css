@@ -1,0 +1,62 @@
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: #2b2b2b;
+  border-radius: 16px;
+  padding: 24px;
+  width: 300px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.number {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
+
+.label {
+  color: #cccccc;
+  font-size: 18px;
+  margin: 4px 0 16px 0;
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.arrow, .percentage {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.since {
+  color: #999999;
+}
+
+.icon-circle {
+  background-color: #4a3527;
+  color: #f5a623;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
